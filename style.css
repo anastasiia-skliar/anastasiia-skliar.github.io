@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.intro {
+	background-color: #f2f2f2;
+	padding: 100px 0;
+}
+
+.intro-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro-content img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.intro-content h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.intro-content h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+section {
+	padding: 20px 0;
+}
+
+section h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+section ul {
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+section li {
+	margin-bottom: 20px;
+}
+
+section h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+section a {
+	color: #333;
+	text-decoration: none;
+}
+
+section a:hover {
+	color: #666;
+}
+
+.blog {
+	background-color: #f2f2f2;
+}
+
+.blog h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
